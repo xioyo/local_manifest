@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="rsg"
-                fetch="https://github.com/RisingTechOSS-devices" />
-        <project path="device/google/sunfish" name="device_google_sunfish" remote="rsg" revision="fifteen" clone-depth="1" />
-        <project path="vendor/google/sunfish" name="vendor_google_sunfish" remote="rsg" revision="fifteen" clone-depth="1" />
-        <remote name="knl"
-                fetch="https://github.com/LineageOS" />
-        <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="knl" revision="lineage-22.1" clone-depth="1" />
-        <project path="device/google/gs-common" name="android_device_google_gs-common" remote="knl" revision="lineage-22.1" clone-depth="1" />
+        <remote name="keb"
+                fetch="https://github.com/crdroidandroid" />
+        <project path="device/oneplus/kebab" name="android_device_oneplus_kebab" remote="keb" revision="15.0" clone-depth="1" />
+        <project path="device/oneplus/sm8250-common" name="android_device_oneplus_sm8250-common" remote="keb" revision="15.0" clone-depth="1" />
+        <project path="kernel/oneplus/sm8250" name="android_kernel_oneplus_sm8250" remote="keb" revision="15.0" clone-depth="1" />
+        <project path="vendor/oneplus/kebab" name="proprietary_vendor_oneplus_kebab" remote="keb" revision="15.0" clone-depth="1" />
+        <project path="vendor/oneplus/sm8250-common" name="proprietary_vendor_oneplus_sm8250-common" remote="keb" revision="15.0" clone-depth="1" />
+        <project path="hardware/oplus" name="android_hardware_oplus" remote="keb" revision="15.0" clone-depth="1" />
 </manifest>
