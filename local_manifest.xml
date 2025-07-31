@@ -2,12 +2,19 @@
 <manifest>
         <remote name="xo"
                 fetch="https://github.com/xioyo" />
-        <project path="device/oneplus/kebab" name="android_device_oneplus_kebab" remote="xo" revision="fifteen" clone-depth="1" />
-        <remote name="keb"
-                fetch="https://github.com/crdroidandroid" />
-        <project path="device/oneplus/sm8250-common" name="android_device_oneplus_sm8250-common" remote="keb" revision="15.0" clone-depth="1" />
-        <project path="kernel/oneplus/sm8250" name="android_kernel_oneplus_sm8250" remote="keb" revision="15.0" clone-depth="1" />
-        <project path="vendor/oneplus/kebab" name="proprietary_vendor_oneplus_kebab" remote="keb" revision="15.0" clone-depth="1" />
-        <project path="vendor/oneplus/sm8250-common" name="proprietary_vendor_oneplus_sm8250-common" remote="keb" revision="15.0" clone-depth="1" />
-        <project path="hardware/oplus" name="android_hardware_oplus" remote="keb" revision="15.0" clone-depth="1" />
+        <project path="device/google/raviole" name="android_device_google_raviole" remote="xo" revision="16" clone-depth="1" />
+        
+        <remote name="ln"
+                fetch="https://github.com/LineageOS" />
+        <project path="device/google/gs101" name="android_device_google_gs101" remote="ln" revision="lineage-23.0" clone-depth="1" />
+        <project path="device/google/gs-common" name="android_device_google_gs-common" remote="ln" revision="lineage-23.0" clone-depth="1" />
+
+         <remote name="mup"
+                fetch="https://github.com/TheMuppets" />
+        <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="mup" revision="lineage-23.0" clone-depth="1" />
+        <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="mup" revision="lineage-23.0" clone-depth="1" />
+        
+        <remote name="aosp-raviolee" 
+                fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
+        <project path="device/google/raviole-kernels/6.1" name="device/google/raviole-kernels/6.1" remote="aosp-raviolee" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
 </manifest>
