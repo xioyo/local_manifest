@@ -17,4 +17,8 @@
         <remote name="aosp-raviolee" 
                 fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
         <project path="device/google/raviole-kernels/6.1" name="device/google/raviole-kernels/6.1" remote="aosp-raviolee" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
+
+        <remote name="ev"
+                fetch="https://github.com/Evolution-X-Devices" />
+        <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" remote="ev" revision="bka" clone-depth="1" />
 </manifest>
