@@ -5,18 +5,18 @@
         <project path="device/google/raviole" name="android_device_google_raviole" remote="xo" revision="16" clone-depth="1" />
         <project path="device/google/gs101" name="android_device_google_gs101" remote="xo" revision="lineage-23.0" clone-depth="1" />
         
-        <remote name="ln"
-                fetch="https://github.com/LineageOS" />
-        <project path="device/google/gs-common" name="android_device_google_gs-common" remote="ln" revision="lineage-23.0" clone-depth="1" />
+        <remote name="inf"
+                fetch="https://github.com/Infinity-X-Devices" />
+        <project path="device/google/gs-common" name="device_google_gs-common" remote="inf" revision="16" clone-depth="1" />
         
          <remote name="mup"
                 fetch="https://github.com/TheMuppets" />
         <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="mup" revision="lineage-23.0" clone-depth="1" />
         <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="mup" revision="lineage-23.0" clone-depth="1" />
         
-        <remote name="aosp-raviolee" 
-                fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
-        <project path="device/google/raviole-kernels/6.1" name="device/google/raviole-kernels/6.1" remote="aosp-raviolee" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
+        <remote name="evx" 
+                fetch="https://git.evolution-x.org/Evolution-X-Tensor" />
+        <project path="device/google/raviole-kernels/infinity" name="device_google_raviole-kernels_evolution" remote="evx" revision="bka" clone-depth="1" />
 
         <remote name="ev"
                 fetch="https://github.com/Evolution-X-Devices" />
