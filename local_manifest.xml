@@ -25,8 +25,6 @@
         <remove-project name="device_infinity_sepolicy" />
         <project path="device/lineage/sepolicy" name="device_infinity_sepolicy" remote="xo" revision="16" clone-depth="1" />
         
-         <remote name="ven"
-                fetch="https://github.com/Pissel7Series" />
         <remove-project name="vendor_infinity" />
-        <project path="vendor/infinity" name="vendor_infinity" remote="ven" revision="p16.3" clone-depth="1" />
+        <project path="vendor/infinity" name="vendor_infinity" remote="xo" revision="16" clone-depth="1" />
 </manifest>
