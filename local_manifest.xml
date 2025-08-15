@@ -28,5 +28,5 @@
          <remote name="ven"
                 fetch="https://github.com/Pissel7Series" />
         <remove-project name="vendor_infinity" />
-        <project path="vendor/infinity" name="vendor_infinity" remote="xo" revision="p16.3" clone-depth="1" />
+        <project path="vendor/infinity" name="vendor_infinity" remote="ven" revision="p16.3" clone-depth="1" />
 </manifest>
