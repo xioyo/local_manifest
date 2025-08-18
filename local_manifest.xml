@@ -21,4 +21,7 @@
         <remote name="ev"
                 fetch="https://github.com/Evolution-X-Devices" />
         <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" remote="ev" revision="bka" clone-depth="1" />
+
+        <remove-project name="vendor_extras" />
+        <project path="vendor/extras" name="vendor_extras" remote="xo" revision="16" clone-depth="1" />
 </manifest>
