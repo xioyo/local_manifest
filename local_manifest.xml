@@ -5,9 +5,9 @@
         <project path="device/google/raviole" name="android_device_google_raviole" remote="xo" revision="16.0" clone-depth="1" />
         <project path="device/google/gs101" name="android_device_google_gs101" remote="xo" revision="16" clone-depth="1" />
         
-        <remote name="inf"
-                fetch="https://github.com/Infinity-X-Devices" />
-        <project path="device/google/gs-common" name="device_google_gs-common" remote="inf" revision="16" clone-depth="1" />
+        <remote name="axn"
+                fetch="https://github.com/AxionAOSP-devices" />
+        <project path="device/google/gs-common" name="android_device_google_gs-common" remote="axn" revision="lineage-23.0" clone-depth="1" />
         
          <remote name="mup"
                 fetch="https://github.com/TheMuppets" />
