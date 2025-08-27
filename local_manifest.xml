@@ -4,14 +4,14 @@
                 fetch="https://github.com/xioyo" />
         <project path="device/google/raviole" name="android_device_google_raviole" remote="xo" revision="16" clone-depth="1" />
         <project path="device/google/gs101" name="android_device_google_gs101" remote="xo" revision="lineage-23.0" clone-depth="1" />
+        <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="xo" revision="lineage-23.0" clone-depth="1" />
         
-        <remote name="inf"
-                fetch="https://github.com/Infinity-X-Devices" />
-        <project path="device/google/gs-common" name="device_google_gs-common" remote="inf" revision="16" clone-depth="1" />
+        <remote name="ln"
+                fetch="https://github.com/LineageOS" />
+        <project path="device/google/gs-common" name="android_device_google_gs-common" remote="ln" revision="lineage-23.0" clone-depth="1" />
         
          <remote name="mup"
                 fetch="https://github.com/TheMuppets" />
-        <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="mup" revision="lineage-23.0" clone-depth="1" />
         <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="mup" revision="lineage-23.0" clone-depth="1" />
         
         <remote name="evx" 
@@ -21,9 +21,6 @@
         <remote name="ev"
                 fetch="https://github.com/Evolution-X-Devices" />
         <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" remote="ev" revision="bka" clone-depth="1" />
-
-        <remove-project name="device_infinity_sepolicy" />
-        <project path="device/lineage/sepolicy" name="device_infinity_sepolicy" remote="xo" revision="16" clone-depth="1" />
         
         <remove-project name="vendor_infinity" />
         <project path="vendor/infinity" name="vendor_infinity" remote="xo" revision="16" clone-depth="1" />
