@@ -4,6 +4,7 @@
                 fetch="https://github.com/xioyo" />
         <project path="device/google/raviole" name="android_device_google_raviole" remote="xo" revision="android16" clone-depth="1" />
         <project path="device/google/gs101" name="android_device_google_gs101" remote="xo" revision="sixteen" clone-depth="1" />
+        <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="xo" revision="lineage-23.0" clone-depth="1" />
         
         <remote name="ln"
                 fetch="https://github.com/LineageOS" />
@@ -11,7 +12,6 @@
         
          <remote name="mup"
                 fetch="https://github.com/TheMuppets" />
-        <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="mup" revision="lineage-23.0" clone-depth="1" />
         <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="mup" revision="lineage-23.0" clone-depth="1" />
         
         <remote name="evx" 
