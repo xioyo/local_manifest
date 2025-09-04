@@ -23,6 +23,9 @@
         <remove-project name="vendor_infinity" />
         <project path="vendor/infinity" name="vendor_infinity" remote="xo" revision="16" clone-depth="1" />
 
+        <remove-project name="packages_overlays_Themes" />
+        <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="xo" revision="16" clone-depth="1" />
+        
         <remote name="isr" 
                 fetch="https://github.com/israfilbd" />
         <remove-project name="android_hardware_qcom_media" />
