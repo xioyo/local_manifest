@@ -27,4 +27,9 @@
                 fetch="https://github.com/israfilbd" />
         <remove-project name="android_hardware_qcom_media" />
         <project path="hardware/qcom-caf/msm8953/media" name="android_hardware_qcom_media" remote="isr" revision="lineage-22.2-caf-msm8953" clone-depth="1" />
+
+        <remove-project name="vendor_google_gms" />
+        <remote name="gap" 
+                fetch="https://codeberg.org/Pyrtle93" />
+        <project path="vendor/gms" name="vendor_google_gms" remote="gap" revision="pissel" clone-depth="1" />
 </manifest>
