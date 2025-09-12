@@ -32,4 +32,7 @@
         <remote name="gap" 
                 fetch="https://codeberg.org/Pyrtle93" />
         <project path="vendor/gms" name="vendor_google_gms" remote="gap" revision="pissel" clone-depth="1" />
+
+        <remove-project name="vendor_gms_overlays" />
+        <project path="vendor/pixel-style" name="vendor_gms_overlays" remote="xo" revision="16" clone-depth="1" />
 </manifest>
