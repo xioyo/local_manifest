@@ -6,7 +6,6 @@
         <project path="device/google/gs101" name="android_device_google_gs101" remote="xo" revision="lineage-23.0" clone-depth="1" />
         <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="xo" revision="lineage-23.0" clone-depth="1" />
         <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="xo" revision="lineage-23.0" clone-depth="1" />
-        <project path="vendor/infinity-priv/keys" name="vendor_extras" remote="xo" revision="16" clone-depth="1" />
         <project path="device/google/gs-common" name="android_device_google_gs-common" remote="xo" revision="lineage-23.0" clone-depth="1" />
         
         <remote name="evx" 
