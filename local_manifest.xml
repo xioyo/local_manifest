@@ -18,5 +18,5 @@
         <project path="packages/apps/PixelParts" name="packages_apps_PixelParts" remote="ev" revision="bka" clone-depth="1" />
         
         <remove-project name="vendor_infinity" />
-        <project path="vendor/infinity" name="vendor_infinity" remote="xo" revision="16-new" clone-depth="1" />
+        <project path="vendor/infinity" name="vendor_infinity" remote="xo" revision="16" clone-depth="1" />
 </manifest>
