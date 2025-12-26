@@ -9,14 +9,11 @@
         <remote name="ln"
                 fetch="https://github.com/LineageOS" />
         <project path="device/google/gs-common" name="android_device_google_gs-common" remote="ln" revision="lineage-23.0" clone-depth="1" />
+        <project path="device/google/raviole-kernels" name="android_device_google_raviole-kernels" remote="ln" revision="lineage-23.0" clone-depth="1" />
         
          <remote name="mup"
                 fetch="https://github.com/TheMuppets" />
         <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="mup" revision="lineage-23.0" clone-depth="1" />
-        
-        <remote name="asp" 
-                fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
-        <project path="device/google/raviole-kernels/lineage" name="device/google/raviole-kernels/6.1" remote="asp" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
 
         <remote name="ev"
                 fetch="https://github.com/Evolution-X-Devices" />
