@@ -5,10 +5,10 @@
         <project path="device/google/raviole" name="android_device_google_raviole" remote="xo" revision="16.2" clone-depth="1" />
         <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="xo" revision="lineage-23.2" clone-depth="1" />
         <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="xo" revision="lineage-23.2" clone-depth="1" />
+        <project path="device/google/gs101" name="android_device_google_gs101" remote="xo" revision="lineage-23.2" clone-depth="1" />
         
         <remote name="ln"
                 fetch="https://github.com/LineageOS" />
-        <project path="device/google/gs101" name="android_device_google_gs101" remote="ln" revision="lineage-23.2" clone-depth="1" />
         <project path="device/google/gs-common" name="android_device_google_gs-common" remote="ln" revision="lineage-23.2" clone-depth="1" />
         <project path="device/google/raviole-kernels" name="android_device_google_raviole-kernels" remote="ln" revision="lineage-23.2" clone-depth="1" />
         
