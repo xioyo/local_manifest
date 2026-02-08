@@ -18,5 +18,9 @@
 
         <remove-project name="vendor_infinity" />
         <project path="vendor/infinity" name="vendor_infinity" remote="xo" revision="16.2" clone-depth="1" />
-        
+
+        <remote name="lib"
+                fetch="https://github.com/Libra420T" />
+        <project path="vendor/google/camera" name="vendor_google_camera" remote="lib" revision="16" clone-depth="1" />
+
 </manifest>
