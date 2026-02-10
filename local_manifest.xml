@@ -4,8 +4,8 @@
                 fetch="https://github.com/xioyo" />
         <project path="device/google/raviole" name="android_device_google_raviole" remote="xo" revision="android16.2" clone-depth="1" />
         <project path="device/google/gs101" name="android_device_google_gs101" remote="xo" revision="android16.2" clone-depth="1" />
-        <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="xo" revision="lineage-23.2" clone-depth="1" />
-        <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="xo" revision="lineage-23.2" clone-depth="1" />
+        <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="xo" revision="android16.2" clone-depth="1" />
+        <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="xo" revision="android16.2" clone-depth="1" />
         <project path="vendor/lunaris-priv/keys" name="vendor_lunaris-priv_keys" remote="xo" revision="16" clone-depth="1" />
         
         <remote name="ln"
