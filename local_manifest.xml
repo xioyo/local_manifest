@@ -15,4 +15,7 @@
         <remote name="bio"
                 fetch="https://github.com/Biohazardousrom" />
         <project path="device/google/raviole-kernels" name="device_google_raviole-kernels_6.1" remote="bio" revision="16" clone-depth="1" />
+
+        <remove-project name="vendor_lineage" />
+        <project path="vendor/lineage" name="vendor_lunaris" remote="xo" revision="16.2" clone-depth="1" />
 </manifest>
