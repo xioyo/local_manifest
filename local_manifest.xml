@@ -19,7 +19,7 @@
         <project path="vendor/lineage" name="vendor_lunaris" remote="xo" revision="16.2" clone-depth="1" />
 
         <remote name="xou"
-                fetch="https://gitlab.com/Pyrtle93" />
+                fetch="https://gitlab.com/xioyou" />
         <remove-project name="GhosutoX/vendor_gms_lunaris" />
-        <project path="vendor/gms" name="vendor_gms_lunaris" remote="xou" revision="p16" clone-depth="1" />
+        <project path="vendor/gms" name="vendor-gms-lunaris" remote="xou" revision="16" clone-depth="1" />
 </manifest>
