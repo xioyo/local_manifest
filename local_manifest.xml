@@ -22,4 +22,8 @@
                 fetch="https://gitlab.com/xioyou" />
         <remove-project name="GhosutoX/vendor_gms_lunaris" />
         <project path="vendor/gms" name="vendor-gms-lunaris" remote="xou" revision="16" clone-depth="1" />
+
+        <remote name="lib"
+                fetch="https://github.com/Libra420T" />
+        <project path="vendor/google/camera" name="vendor_google_camera" remote="lib" revision="16" clone-depth="1" />
 </manifest>
