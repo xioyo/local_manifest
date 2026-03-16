@@ -6,6 +6,7 @@
         <project path="device/google/gs101" name="android_device_google_gs101" remote="xo" revision="android16.2" clone-depth="1" />
         <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="xo" revision="android16.2" clone-depth="1" />
         <project path="vendor/google/raven" name="proprietary_vendor_google_raven" remote="xo" revision="android16.2" clone-depth="1" />
+        <project path="vendor/lunaris-priv/keys" name="vendor_extras" remote="xo" revision="android16.2" clone-depth="1" />
         
         <remote name="ln"
                 fetch="https://github.com/LineageOS" />
