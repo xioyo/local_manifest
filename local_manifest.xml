@@ -12,6 +12,7 @@
                 fetch="https://github.com/LineageOS" />
         <project path="device/google/gs-common" name="android_device_google_gs-common" remote="ln" revision="lineage-23.2" clone-depth="1" />
         <project path="device/google/raviole-kernels" name="android_device_google_raviole-kernels" remote="ln" revision="lineage-23.2" clone-depth="1" />
+        <project path="kernel/google/gs-6.1" name="android_kernel_google_gs-6.1_manifest" remote="ln" revision="lineage-23.2" clone-depth="1" />
 
         <remove-project name="Lunaris-AOSP/vendor_lineage" />
         <project path="vendor/lineage" name="vendor_lunaris" remote="xo" revision="16.2" clone-depth="1" />
