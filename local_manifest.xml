@@ -19,6 +19,6 @@
 
         <remote name="xou"
                 fetch="https://gitlab.com/xioyou" />
-        <remove-project name="GhosutoX/vendor_gms_lunaris" />
-        <project path="vendor/gms" name="vendor-gms-lunaris" remote="xou" revision="16" clone-depth="1" />
+        <remove-project name="GhosutoX/vendor_pixel_gms" />
+        <project path="vendor/pixel/gms" name="vendor_pixel_gms" remote="xou" revision="16" clone-depth="1" />
 </manifest>
